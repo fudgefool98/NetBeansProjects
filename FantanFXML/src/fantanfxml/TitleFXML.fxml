@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fantanfxml.FXMLDocumentController">
+    <children>
+      <MenuBar minWidth="-Infinity" prefHeight="25.0" prefWidth="711.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Open" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox layoutX="278.0" layoutY="289.0" prefHeight="71.0" prefWidth="333.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="278.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="289.0">
+         <children>
+            <Label alignment="CENTER" text="How many players?" />
+         </children>
+      </HBox>
+      <Pane layoutX="281.0" layoutY="369.0" prefHeight="140.0" prefWidth="430.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <SplitMenuButton alignment="CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" text="SplitMenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="3" />
+                <MenuItem mnemonicParsing="false" text="4" />
+                  <MenuItem mnemonicParsing="false" text="5" />
+              </items>
+            </SplitMenuButton>
+         </children></Pane>
+    </children>
+</AnchorPane>

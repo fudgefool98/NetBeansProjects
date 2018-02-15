@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="warfxml.MenuController">
+    <children>
+      <MenuBar prefHeight="25.0" prefWidth="410.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+        <Button fx:id="button" layoutX="71.0" layoutY="113.0" onAction="#handleButtonAction1" text="Play War!" />
+      <Button fx:id="button1" layoutX="200.0" layoutY="113.0" onAction="#handleButtonAction2" text="Play War Automatic!" />
+      <Label layoutX="71.0" layoutY="38.0" text="War !">
+         <font>
+            <Font name="Britannic Bold" size="41.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
